@@ -8,9 +8,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    }
-    override func validateValue(_ ioValue: AutoreleasingUnsafeMutablePointer<AnyObject?>, forKeyPath inKeyPath: String) throws {
-        <#code#>
+
     }
 }
+let locationManager = CLLocationManager()
 
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    locationManager.requestAlwaysAuthorization()
+    locationManager.delegate = self
+    locationManager.startUpdatingLocation()
+    
+}
+
+}
+
+
+extension ViewController: CLLocationManagerDelegate {
+    
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print(locations.last!)
+    }
+    
+}
