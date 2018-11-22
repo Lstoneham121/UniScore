@@ -9,20 +9,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
-    }
-}
+   
 let locationManager = CLLocationManager()
 
-override func viewDidLoad() {
+func viewDidLoad() {
     super.viewDidLoad()
     
     locationManager.requestAlwaysAuthorization()
-    locationManager.delegate = self
+    locationManager.delegate = self as! CLLocationManagerDelegate
     locationManager.startUpdatingLocation()
     
 }
 
-}
+
 
 
 extension ViewController: CLLocationManagerDelegate {
@@ -33,3 +32,7 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
 }
+    }
+}
+
+
