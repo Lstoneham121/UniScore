@@ -9,8 +9,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-jake is shit
-    
+let jake commit 
 
 }
 
