@@ -9,6 +9,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-
+    override func validateValue(_ ioValue: AutoreleasingUnsafeMutablePointer<AnyObject?>, forKeyPath inKeyPath: String) throws {
+        <#code#>
+    }
 }
 
