@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A5434521AD981E0089D0F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32A5434421AD981E0089D0F8 /* GoogleService-Info.plist */; };
 		8CB21A6221A7014E005A9133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB21A6121A7014E005A9133 /* AppDelegate.swift */; };
 		8CB21A6421A7014E005A9133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB21A6321A7014E005A9133 /* ViewController.swift */; };
 		8CB21A6721A7014E005A9133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB21A6521A7014E005A9133 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32A5434421AD981E0089D0F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8CB21A5E21A7014E005A9133 /* UniScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB21A6121A7014E005A9133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB21A6321A7014E005A9133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				8CB21A7321A702B5005A9133 /* Location.swift */,
 				8CB21A6821A7014F005A9133 /* Assets.xcassets */,
 				8CB21A6A21A7014F005A9133 /* LaunchScreen.storyboard */,
+				32A5434421AD981E0089D0F8 /* GoogleService-Info.plist */,
 				8CB21A6D21A7014F005A9133 /* Info.plist */,
 			);
 			path = UniScore;
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB21A6C21A7014F005A9133 /* LaunchScreen.storyboard in Resources */,
+				32A5434521AD981E0089D0F8 /* GoogleService-Info.plist in Resources */,
 				8CB21A6921A7014F005A9133 /* Assets.xcassets in Resources */,
 				8CB21A6721A7014E005A9133 /* Main.storyboard in Resources */,
 			);
