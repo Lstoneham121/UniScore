@@ -5,14 +5,13 @@ import MapKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
         
 
    
 let locationManager = CLLocationManager()
 
-func viewDidLoad() {
+    override func viewDidLoad() {
     super.viewDidLoad()
     
     locationManager.requestAlwaysAuthorization()
@@ -23,6 +22,7 @@ func viewDidLoad() {
 
 
 
+    }
 
 extension ViewController: CLLocationManagerDelegate {
     
@@ -32,7 +32,6 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
 }
-    }
-}
+
 
 
